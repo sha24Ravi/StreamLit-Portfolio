@@ -27,7 +27,8 @@ st.write("""
 
 # Add a profile image
 st.image("profile-pic.png", width=400)  # Replace with your profile image path
-st.markdown("[LinkedIn](https://www.linkedin.com/in/shashankravi24/)")
+st.markdown("""[LinkedIn](https://www.linkedin.com/in/shashankravi24/)
+               [LeetCode](https://leetcode.com/u/sravi24/)""")
 # Add a skills section
 st.header("Skills",divider="gray")
 st.write("""
@@ -51,8 +52,8 @@ st.write("""
 **MERAGO HEALTHCARE**, Bangalore, KA, IN  
 _Backend Software Developer_ — _May 2021 - May 2023_
 
-• Optimized Java applications with Spring Boot by implementing Redis caching, reducing API latency by 30%, resolving connection overflow, 
-  and boosting system performance by 25%.  
+• Hands-on development of a Microservices API architecture for service calls from API to OpenText, which will use Spring Boot, Spring JPA/Hibernate 
+  to store records in Microsoft Azure Database, and Java 8 to send DEEP.IO events.  
          
 • Designed and implemented secure RESTful APIs that enhanced data integrity by conducting rigorous quality checks within data pipelines, 
   resulting in a 40% reduction in erroneous transactions throughout the system.
@@ -83,6 +84,15 @@ st.header("Projects",divider="gray")
 st.write("Here are some of my recent projects:")
 
 # Example of a project with a description and link
+
+st.subheader("Project 2: Machine Learning Project: Student Math Score Prediction")
+st.write("""
+
+Implemented data ingestion and transformation processes using pandas, ensuring data quality and readiness for analysis. 
+Leveraged sci-kit-learn for model training and evaluation. Build pipelines Using the Transformers library Finally, 
+created an interactive web application with Flask to display results.
+         """)
+st.markdown("[View Project on GitHub](https://github.com/sha24Ravi/ML-Project.git)")
 st.subheader("Project 1: Cloud monitoring app ")
 st.write("""
 
@@ -94,6 +104,8 @@ st.write("""
 - Deployed the app on Kubernetes hosted on the Google platform and accessed it through a web browser.
 """)
 st.markdown("[View Project on GitHub](https://github.com/your-username/project1)")
+
+
 
 # Add a contact section
 st.header("Download My Resume")
