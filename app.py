@@ -85,7 +85,7 @@ st.write("Here are some of my recent projects:")
 
 # Example of a project with a description and link
 
-st.subheader("Project 2: Machine Learning Project: Student Math Score Prediction")
+st.subheader("Project 1: Machine Learning Project: Student Math Score Prediction")
 st.write("""
 
 Implemented data ingestion and transformation processes using pandas, ensuring data quality and readiness for analysis. 
@@ -93,7 +93,7 @@ Leveraged sci-kit-learn for model training and evaluation. Build pipelines Using
 created an interactive web application with Flask to display results.
          """)
 st.markdown("[View Project on GitHub](https://github.com/sha24Ravi/ML-Project.git)")
-st.subheader("Project 1: Cloud monitoring app ")
+st.subheader("Project 2: Cloud monitoring app ")
 st.write("""
 
 
