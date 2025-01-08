@@ -1,4 +1,4 @@
 streamlit
 phidata
-grog
+groq
 GoogleSearch-python
